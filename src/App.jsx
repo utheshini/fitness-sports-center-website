@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
+import Plans from "./components/Plans";
 
 function App() {
   // Get initial theme from localStorage or system preference
@@ -40,6 +41,7 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <Plans />
     </>
   );
 }

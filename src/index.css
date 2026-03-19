@@ -8,6 +8,7 @@
   --color-hoverDark: #2c2c2c;
   --color-cardHoverBorder: #663c1f;
   --color-cardBg: #ffffff;
+  --color-primary-soft: rgba(212, 160, 23, 0.2);
 }
 
 /* Dark mode */
