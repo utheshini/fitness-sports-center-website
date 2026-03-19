@@ -6,13 +6,15 @@
   --color-lightBg: #f2f2f2;
   --color-darkBg: #2e2e2e;
   --color-hoverDark: #2c2c2c;
-  --color-cardHoverBorder: #2b1f0f;
+  --color-cardHoverBorder: #663c1f;
+  --color-cardBg: #ffffff;
 }
 
 /* Dark mode */
 .dark {
   --color-lightBg: #2e2e2e;
   --color-darkBg: #f2f2f2;
+  --color-cardBg: #3a3a3a;
 }
 
 /* Global styles */
