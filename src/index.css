@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Theme variables */
+:root {
+  --color-primary: #D4A017;
+  --color-lightBg: #F2F2F2;
+  --color-darkBg: #2E2E2E;
+  --color-hoverDark: #2c2c2c;
+  --color-cardHoverBorder: #2b1f0f;
+}
+
+/* Dark mode */
+.dark {
+  --color-lightBg: #2E2E2E;
+  --color-darkBg: #F2F2F2;
+}
+
+/* Global styles */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-lightBg);
+  color: var(--color-darkBg);
+}
+
+
+/* Custom reusable components */
+@layer components {
+.btn-primary {
+  @apply px-5 py-2 bg-[var(--color-primary)] text-black font-medium rounded-md transition-all duration-300 ease-in-out transform;
+  
+}
+
+.btn-primary:hover {
+  @apply scale-105 opacity-90;
+}
+}
