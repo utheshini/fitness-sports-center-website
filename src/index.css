@@ -2,17 +2,17 @@
 
 /* Theme variables */
 :root {
-  --color-primary: #D4A017;
-  --color-lightBg: #F2F2F2;
-  --color-darkBg: #2E2E2E;
+  --color-primary: #d4a017;
+  --color-lightBg: #f2f2f2;
+  --color-darkBg: #2e2e2e;
   --color-hoverDark: #2c2c2c;
   --color-cardHoverBorder: #2b1f0f;
 }
 
 /* Dark mode */
 .dark {
-  --color-lightBg: #2E2E2E;
-  --color-darkBg: #F2F2F2;
+  --color-lightBg: #2e2e2e;
+  --color-darkBg: #f2f2f2;
 }
 
 /* Global styles */
@@ -25,15 +25,13 @@ body {
   color: var(--color-darkBg);
 }
 
-
 /* Custom reusable components */
 @layer components {
-.btn-primary {
-  @apply px-5 py-2 bg-[var(--color-primary)] text-black text-sm md:text-base font-medium rounded-md transition-all duration-300 ease-in-out transform;
-  
-}
+  .btn-primary {
+    @apply px-5 py-2 bg-[var(--color-primary)] text-black text-sm md:text-base font-medium rounded-md transition-all duration-300 ease-in-out transform;
+  }
 
-.btn-primary:hover {
-  @apply scale-105 opacity-90;
-}
+  .btn-primary:hover {
+    @apply scale-105 opacity-90;
+  }
 }
