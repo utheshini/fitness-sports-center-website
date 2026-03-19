@@ -5,6 +5,8 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Plans from "./components/Plans";
 import Trainers from "./components/Trainers";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   // Get initial theme from localStorage or system preference
@@ -44,6 +46,8 @@ function App() {
       <Services />
       <Plans />
       <Trainers />
+      <Contact />
+      <Footer />
     </>
   );
 }
