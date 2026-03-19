@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   // Get initial theme from localStorage or system preference
@@ -31,7 +32,12 @@ function App() {
     document.documentElement.style.colorScheme = theme;
   }, [theme]);
 
-  return <Navbar theme={theme} toggleTheme={toggleTheme} />;
+  return (
+    <>
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
+      <Hero />
+    </>
+  );
 }
 
 export default App;
