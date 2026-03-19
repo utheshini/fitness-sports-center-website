@@ -6,7 +6,7 @@ A modern and responsive **promotional landing page** built for a fitness brand a
 
 ## 🔗 Live Demo
 
-👉 coming soon!
+👉 https://fitnessss-sports-center.vercel.app/
 
 ---
 
