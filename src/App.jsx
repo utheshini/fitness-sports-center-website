@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
 import Plans from "./components/Plans";
+import Trainers from "./components/Trainers";
 
 function App() {
   // Get initial theme from localStorage or system preference
@@ -42,6 +43,7 @@ function App() {
       <About />
       <Services />
       <Plans />
+      <Trainers />
     </>
   );
 }
